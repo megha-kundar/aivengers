@@ -23,7 +23,8 @@
         "drush/drush": "^11 || ^12",
         "drupal/admin_toolbar": "^3.5",
         "drupal/login_destination": "^2.0@beta",
-        "drupal/field_group": "^3.6"
+        "drupal/field_group": "^3.6",
+        "drupal/ai": "^1.0@beta"
     },
     "require-dev": {
         "drupal/core-dev": "^10"
