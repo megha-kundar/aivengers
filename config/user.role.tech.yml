@@ -1,0 +1,19 @@
+uuid: 4f377a83-61e4-427f-a5b2-a17aa1cc4759
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.document
+    - node.type.rfp_evaluation_form
+  module:
+    - media
+    - node
+id: tech
+label: Tech
+weight: 5
+is_admin: null
+permissions:
+  - 'create document media'
+  - 'create rfp_evaluation_form content'
+  - 'edit own document media'
+  - 'edit own rfp_evaluation_form content'

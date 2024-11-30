@@ -1,0 +1,23 @@
+uuid: ceeeec5b-b5e1-49c7-ad26-a9a46939a51d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_detail_page_count
+    - node.type.rfp_evaluation_form
+id: node.rfp_evaluation_form.field_detail_page_count
+field_name: field_detail_page_count
+entity_type: node
+bundle: rfp_evaluation_form
+label: 'Total Pages /Templates (Detail)'
+description: 'Number of Pages: Total number of Templates (Detail pages)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

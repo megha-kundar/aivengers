@@ -1,0 +1,29 @@
+uuid: 567e7b59-7703-4ee3-9a3c-a3270d88b646
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rfp_document
+    - media.type.document
+    - node.type.rfp_evaluation_form
+id: node.rfp_evaluation_form.field_rfp_document
+field_name: field_rfp_document
+entity_type: node
+bundle: rfp_evaluation_form
+label: 'RFP Document'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

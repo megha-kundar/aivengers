@@ -1,0 +1,38 @@
+uuid: e6afd169-bd9e-4308-ac68-cc7dfee477b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.rfp_evaluation_form.body
+    - field.field.node.rfp_evaluation_form.field_additional_comments
+    - field.field.node.rfp_evaluation_form.field_detail_page_count
+    - field.field.node.rfp_evaluation_form.field_is_an_ecommerce
+    - field.field.node.rfp_evaluation_form.field_rfp_document
+    - node.type.rfp_evaluation_form
+  module:
+    - text
+    - user
+id: node.rfp_evaluation_form.teaser
+targetEntityType: node
+bundle: rfp_evaluation_form
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_additional_comments: true
+  field_detail_page_count: true
+  field_is_an_ecommerce: true
+  field_rfp_document: true

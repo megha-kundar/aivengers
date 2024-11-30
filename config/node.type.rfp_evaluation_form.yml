@@ -1,0 +1,18 @@
+uuid: 6e4262a4-6f4d-4cb0-90b5-5f8e7157ca00
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'RFP Evaluation Form'
+type: rfp_evaluation_form
+description: 'An RFP Evaluation Form is a tool used to assess proposals submitted in response to an RFP, ensuring a fair and objective selection process.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

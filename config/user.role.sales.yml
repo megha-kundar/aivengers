@@ -1,0 +1,19 @@
+uuid: 966a8fd1-ed09-4c9c-97c3-04035b3904bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.document
+    - node.type.rfp_evaluation_form
+  module:
+    - media
+    - node
+id: sales
+label: Sales
+weight: 4
+is_admin: null
+permissions:
+  - 'create document media'
+  - 'create rfp_evaluation_form content'
+  - 'edit own document media'
+  - 'edit own rfp_evaluation_form content'

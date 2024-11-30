@@ -1,0 +1,14 @@
+uuid: a6b4f903-5521-4b5c-b3e0-58899ba61a37
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tech
+  module:
+    - user
+id: user_add_role_action.tech
+label: 'Add the Tech role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: tech

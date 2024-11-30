@@ -1,0 +1,18 @@
+uuid: 2155ed6c-0a38-4391-a393-e62d6cd7418d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.rfp_evaluation_form
+id: node.rfp_evaluation_form.title
+field_name: title
+entity_type: node
+bundle: rfp_evaluation_form
+label: 'Project Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

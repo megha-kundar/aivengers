@@ -1,0 +1,21 @@
+uuid: 63c84f5d-19cb-441d-8e92-a9b9ffe675ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_an_ecommerce
+    - node.type.rfp_evaluation_form
+id: node.rfp_evaluation_form.field_is_an_ecommerce
+field_name: field_is_an_ecommerce
+entity_type: node
+bundle: rfp_evaluation_form
+label: 'Is this an E-commerce Website?'
+description: 'Is this an E-commerce Website? (Yes/No)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'yes'
+  off_label: 'no'
+field_type: boolean

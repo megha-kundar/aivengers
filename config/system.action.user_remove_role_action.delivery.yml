@@ -1,0 +1,14 @@
+uuid: 690c260d-ddb9-4540-8afb-74e750325e0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.delivery
+  module:
+    - user
+id: user_remove_role_action.delivery
+label: 'Remove the Delivery role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: delivery

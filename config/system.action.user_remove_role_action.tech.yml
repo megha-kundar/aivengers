@@ -1,0 +1,14 @@
+uuid: 6d90b8d6-6435-48e0-af07-a483bd646984
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tech
+  module:
+    - user
+id: user_remove_role_action.tech
+label: 'Remove the Tech role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: tech

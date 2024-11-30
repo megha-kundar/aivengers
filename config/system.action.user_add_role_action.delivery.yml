@@ -1,0 +1,14 @@
+uuid: 7b7e16ab-f3f1-462c-9d66-67e15beb45c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.delivery
+  module:
+    - user
+id: user_add_role_action.delivery
+label: 'Add the Delivery role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: delivery

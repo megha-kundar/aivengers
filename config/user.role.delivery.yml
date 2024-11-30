@@ -1,0 +1,19 @@
+uuid: e9c543e9-d74b-44a6-abb3-581759056e59
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.document
+    - node.type.rfp_evaluation_form
+  module:
+    - media
+    - node
+id: delivery
+label: Delivery
+weight: 6
+is_admin: null
+permissions:
+  - 'create document media'
+  - 'create rfp_evaluation_form content'
+  - 'edit own document media'
+  - 'edit own rfp_evaluation_form content'

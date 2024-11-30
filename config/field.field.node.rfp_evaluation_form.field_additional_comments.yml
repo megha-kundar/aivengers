@@ -1,0 +1,33 @@
+uuid: 340c3ca2-259d-41af-8b60-01ee12c4bab5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_additional_comments
+    - node.type.rfp_evaluation_form
+  module:
+    - comment
+id: node.rfp_evaluation_form.field_additional_comments
+field_name: field_additional_comments
+entity_type: node
+bundle: rfp_evaluation_form
+label: 'Additional Comments'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 0
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment
